@@ -1,0 +1,164 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.container{
+	max-width: 1200px;
+	margin: auto;
+}
+.margins{
+	margin: 70px 10px;
+	display: block;
+	overflow: hidden;
+}
+nav{
+	background: #fff;
+	box-shadow: 4px -5px 16px #000;
+	padding: 10px 10px;
+	position: sticky; 
+	top: 0;
+	overflow: hidden;
+	z-index: 999;
+}
+nav .logo{
+	float: left;
+	display: block;
+	margin-top: 7px;
+}
+nav ul{
+	float: right;
+}
+nav ul li{
+	display: inline-block;
+	list-style-type: none; 
+}
+nav ul li a{
+	text-decoration: none;
+	color: #000;
+	display: block;
+	font-size: 20px;
+	padding: 10px 24px;
+}
+nav ul li a:hover{
+	background: #CCCCCC;
+}
+.header-part img{
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+header h3{
+	margin-top: -55px;
+	font-weight: lighter;
+	font-size: 35px;
+	letter-spacing: 5px;
+}
+.plater-img{
+	float: left;
+	width: 50%;
+}
+.plater-img img{
+	width: 83%;
+	opacity: 0.75;
+}
+.all-text{
+	float: left;
+	width: 50%;
+}
+.all-text h2{
+	font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 9px;
+    text-align: center;
+}
+.all-text h4{
+	text-align: center;
+	margin-top: 63px;
+	letter-spacing: 9px;
+	font-size: 19px;
+	font-weight: lighter;
+}
+.all-text p{
+	margin: 10px 0;
+	line-height: 34px;
+	font-size: 17px;
+	text-align: justify;
+	font-weight: bold;
+	text-align: left;
+}
+.all-text p.light{
+	font-weight: lighter;
+}
+hr{
+	margin: 10px auto;
+	width: 62%;
+	color: #ccc;
+}
+#menu-section .all-text h2{
+	font-weight: 400;
+	font-size: 17px;
+	text-align: left;
+	margin-top: 50px;
+}
+#menu-section .all-text p{
+	font-weight: lighter;
+	margin-top: 12px;
+}
+#menu-section .all-text h1{
+	text-align: center;
+	font-size: 46px;
+	font-weight: 400;
+	letter-spacing: 5px;
+	margin-bottom: 90px;
+}
+#menu-section img{
+	opacity: 0.75;
+}
+#contact-section h1{
+	font-size: 31px;
+	letter-spacing: 6px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+#contact-section p{
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+#contact-section q{
+	color: #738C99;
+	font-size: 20px;
+	letter-spacing: 3px;
+}
+#contact-section h6{
+	margin: 15px 0;
+	font-size: 17px;
+	font-weight: 400;
+	letter-spacing: 2px
+}
+form input{
+	width: 100%;
+	padding: 20px 10px;
+	margin: 10px 0;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+}
+form input.btn{
+	width: auto;
+	border-bottom: 0;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 13px 36px;
+	margin-top: 25px;
+	cursor: pointer;
+}
+footer{
+	background-color: #F1F1F1;
+	padding: 50px 20px;
+	text-align: center;
+}
+footer h5{
+	font-size: 25px;
+	margin-bottom: 20px;
+}
